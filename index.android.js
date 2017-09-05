@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { AppRegistry, Text, View, WebView, TouchableOpacity, BackHandler } from 'react-native';
 
 // var DEFAULT_URL = 'http://192.168.1.154/';
-var DEFAULT_URL = 'https://www.channelfix.com';
+var DEFAULT_URL = 'https://www.google.com';
 var WEBVIEW_REF = 'webview';
 
 export default class AwesomeApp extends Component {
