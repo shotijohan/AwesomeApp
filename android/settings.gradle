@@ -1,0 +1,4 @@
+rootProject.name = 'AwesomeApp'
+
+include ':RNWebView', ':app' //changes
+project(':RNWebView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-android/android') //changes
